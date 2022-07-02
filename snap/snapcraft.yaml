@@ -1,5 +1,5 @@
 # Copyright (c) 2018-2021 The Wagerr developers
-name: wagerr
+name: wagerr-rebase
 base: core18
 version: 5.0.0
 summary:   wagerr, digital currency for media content
@@ -99,7 +99,7 @@ parts:
   wagerr:
     source: http://github.com/wagerr/wagerr
     source-type: git
-    source-tag: v5.0.0
+    source-tag: update-circleci
     plugin: nil
     override-build: |
       echo "+++++++++++++++++++++++++++++++++++++++++++++++"
